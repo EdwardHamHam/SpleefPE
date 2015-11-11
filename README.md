@@ -2,6 +2,7 @@
 Spleef for PocketMine with effect blocks
 
 ## Usage
+```php
 /spleef <join|leave|addworld <name>|removeworld <name>|spawns <add|remove|list|tp>>
 
 before anyone can join a map, you have to do:
@@ -21,3 +22,4 @@ To join do:
 /spleef join <mapname>
 
 If you only have 1 map you can also do /spleef join, else /spleef join will let you join a random map
+```
