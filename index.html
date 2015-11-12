@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>SpleefPE by ImagicalCorp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">SpleefPE</h1>
+      <h2 class="project-tagline">The new Spleef with effect for PocketMine.</h2>
+      <a href="https://github.com/ImagicalCorp/SpleefPE" class="btn">View on GitHub</a>
+      <a href="https://github.com/ImagicalCorp/SpleefPE/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/ImagicalCorp/SpleefPE/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="spleefpe" class="anchor" href="#spleefpe" aria-hidden="true"><span class="octicon octicon-link"></span></a>SpleefPE</h1>
+
+<p>Spleef for PocketMine with effect blocks</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-k">/</span><span class="pl-c1">spleef</span> <span class="pl-k">&lt;</span><span class="pl-c1">join</span><span class="pl-k">|</span><span class="pl-c1">leave</span><span class="pl-k">|</span><span class="pl-c1">addworld</span> <span class="pl-k">&lt;</span><span class="pl-c1">name</span><span class="pl-k">&gt;</span><span class="pl-k">|</span><span class="pl-c1">removeworld</span> <span class="pl-k">&lt;</span><span class="pl-c1">name</span><span class="pl-k">&gt;</span><span class="pl-k">|</span><span class="pl-c1">spawns</span> <span class="pl-k">&lt;</span><span class="pl-c1">add</span><span class="pl-k">|</span><span class="pl-c1">remove</span><span class="pl-k">|</span><span class="pl-c1">list</span><span class="pl-k">|</span><span class="pl-c1">tp</span><span class="pl-k">&gt;&gt;</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c1">before</span> <span class="pl-c1">anyone</span> <span class="pl-c1">can</span> <span class="pl-c1">join</span> <span class="pl-c1">a</span> <span class="pl-c1">map</span>, <span class="pl-c1">you</span> <span class="pl-c1">have</span> <span class="pl-c1">to</span> <span class="pl-k">do</span>:</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">/</span><span class="pl-c1">spleef</span> <span class="pl-c1">addworld</span> <span class="pl-k">&lt;</span><span class="pl-c1">worldname</span><span class="pl-k">&gt;</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c1">You</span> <span class="pl-c1">have</span> <span class="pl-c1">to</span> <span class="pl-c1">provide</span> <span class="pl-c1">an</span> <span class="pl-c1">existing</span> <span class="pl-c1">map</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c1">then</span>, <span class="pl-c1">go</span> <span class="pl-c1">to</span> <span class="pl-c1">the</span> <span class="pl-c1">world</span> <span class="pl-k">and</span> <span class="pl-c1">add</span> <span class="pl-k">as</span> <span class="pl-c1">many</span> <span class="pl-c1">spawns</span> <span class="pl-k">as</span> <span class="pl-c1">you</span> <span class="pl-c1">want</span><span class="pl-k">.</span> <span class="pl-c1">That</span> <span class="pl-c1">many</span> <span class="pl-c1">players</span> <span class="pl-c1">can</span> <span class="pl-c1">join</span> <span class="pl-c1">the</span> <span class="pl-c1">match</span> <span class="pl-c1">later</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">/</span><span class="pl-c1">spleef</span> <span class="pl-c1">spawns</span> <span class="pl-c1">add</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c1">After</span> <span class="pl-c1">that</span> <span class="pl-c1">your</span> <span class="pl-c1">map</span> <span class="pl-c1">is</span> <span class="pl-c1">ready</span> <span class="pl-c1">to</span> <span class="pl-c1">go</span><span class="pl-k">.</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c1">To</span> <span class="pl-c1">join</span> <span class="pl-k">do</span>:</span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-k">/</span><span class="pl-c1">spleef</span> <span class="pl-c1">join</span> <span class="pl-k">&lt;</span><span class="pl-c1">mapname</span><span class="pl-k">&gt;</span></span>
+<span class="pl-s1"></span>
+<span class="pl-s1"><span class="pl-c1">If</span> <span class="pl-c1">you</span> <span class="pl-c1">only</span> <span class="pl-c1">have</span> <span class="pl-c1">1</span> <span class="pl-c1">map</span> <span class="pl-c1">you</span> <span class="pl-c1">can</span> <span class="pl-c1">also</span> <span class="pl-k">do</span> <span class="pl-k">/</span><span class="pl-c1">spleef</span> <span class="pl-c1">join</span>, <span class="pl-k">else</span> <span class="pl-k">/</span><span class="pl-c1">spleef</span> <span class="pl-c1">join</span> <span class="pl-c1">will</span> <span class="pl-c1">let</span> <span class="pl-c1">you</span> <span class="pl-c1">join</span> <span class="pl-c1">a</span> <span class="pl-c1">random</span> <span class="pl-c1">map</span></span></pre></div>
+
+<h2>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h2>
+
+<p>This plugin was coded and is maintained by thebigsmileXD of the Imagical Corporation. This is not a plugin for everyone, this is a plugin for our intended use. Hopefully you find it useful too.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/ImagicalCorp/SpleefPE">SpleefPE</a> is maintained by <a href="https://github.com/ImagicalCorp">ImagicalCorp</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
